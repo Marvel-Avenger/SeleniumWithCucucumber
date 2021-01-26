@@ -14,10 +14,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
 
-/**
- * Created by Karthik on 31/01/2019.
- */
-
 public class Hook extends BaseUtil{
 
 
@@ -43,7 +39,7 @@ public class Hook extends BaseUtil{
 //        System.setProperty("webdriver.chrome.driver", "/Users/karthikkk/ChromeDriver/chromedriver");
 //        base.Driver = new ChromeDriver();
 
-        System.setProperty("webdriver.chrome.driver", "C:\libs/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\libs\\chromedriver.exe");
         base.Driver = new ChromeDriver();
     }
 
